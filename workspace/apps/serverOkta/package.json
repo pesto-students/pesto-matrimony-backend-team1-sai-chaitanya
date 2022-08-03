@@ -1,0 +1,15 @@
+{
+  "name": "okta-express-api-quickstart",
+  "version": "1.0.0",
+  "description": "Example Express API using Okta",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@okta/jwt-verifier": "^2.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
